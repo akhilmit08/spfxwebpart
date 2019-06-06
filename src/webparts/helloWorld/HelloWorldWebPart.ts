@@ -37,6 +37,7 @@ this.domElement.innerHTML = `
 `;
 this._renderListDataAsync();
 }
+// Rest API Method
 private _getListCustomerData():Promise<ISPListCustomers>
 {
 return this.context.spHttpClient.get(this.context.pageContext.web.absoluteUrl+
