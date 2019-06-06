@@ -42,7 +42,7 @@ private _getListCustomerData():Promise<ISPListCustomers>
 return this.context.spHttpClient.get(this.context.pageContext.web.absoluteUrl+
 `/_api/web/lists/GetByTitle('Customers')/Items`,SPHttpClient.configurations.v1).
 then((responseListCustomer:SPHttpClientResponse)=>{
-debugger;
+
 return responseListCustomer.json();
 SPFX GET List Items
 
@@ -103,7 +103,7 @@ description: strings.PropertyPaneDescription
 groups: [
 {
 groupName: strings.BasicGroupName,
-PowerApps Page 2
+
 groupName: strings.BasicGroupName,
 groupFields: [
 PropertyPaneTextField('description', {
