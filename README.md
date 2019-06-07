@@ -16,7 +16,7 @@ In order to Deployment :
 gulp bundle --ship
 gulp package-solution
 
-In Order to Create new SPFX project:
+Create new SPFX project and will add more details in future
 
 yo @microsoft/sharepoint
 gulp serve
